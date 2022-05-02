@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(
+    to right,
+    rgb(98, 191, 205),
+    #8bac35,
+    #ca715f,
+    #b3559d
+  );
+}
+a {
+  color: forestgreen;
+}
+
+section {
+  background-color: rgb(218, 218, 224);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 6px 7px rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+}
+section h1 {
+  color: #4dacb9;
+  font-size: 20px;
+}
+section h2 {
+  color: #7c9d27;
+}
+input {
+  width: 100%;
+  padding: 6px 5px;
+  border-radius: 10px;
+  font-style: italic;
+  border: 1px solid grey;
+}
+.hint {
+  font-size: small;
+  margin-top: 5px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.Phonetics a {
+  border: 1px solid #ddd;
+  text-decoration: none;
+  padding: 2px 10px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  transition: all 150ms ease-in-out;
+  font-size: 12px;
+  font-weight: bold;
+}
+.Phonetics a:hover {
+  background: #842e20;
+  color: white;
+}
+.text {
+  opacity: 0.6;
+  font-weight: bold;
+}
+.meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.example {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 10px;
+  color: #a7338d;
+}
+.Synonyms {
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+.Synonyms li {
+  font-size: 12px;
+  display: inline-block;
+  padding-right: 10px;
+  line-height: 1;
+}
+.Dictionary h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.App-logo {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
