@@ -6,6 +6,7 @@ body {
     #ca715f,
     #b3559d
   );
+  font-family: "Bebas Neue", cursive;
 }
 a {
   color: forestgreen;
@@ -64,9 +65,8 @@ h2 {
   line-height: 1.5;
   font-weight: bold;
 }
-
 .example {
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
   margin-top: 10px;
   color: #a7338d;
@@ -77,10 +77,13 @@ h2 {
 }
 
 .Synonyms li {
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.6;
   display: inline-block;
   padding-right: 10px;
   line-height: 1;
+  margin-bottom: 10px;
 }
 .Dictionary h1 {
   font-size: 25px;
@@ -90,6 +93,6 @@ h2 {
 .App-logo {
   max-width: 300px;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
   border-radius: 10px;
 }
