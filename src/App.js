@@ -13,7 +13,26 @@ function App() {
           <Dictionary defaultKeyword="sun" />
         </main>
         <footer>
-          <small>Coded by V.Vasyutinskaya</small>
+          <small>
+            <a
+              href="https://github.com/ViktoriaVasyutinskaya/react-dictionary-app"
+              id="openSource"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://boisterous-sorbet-49c0e1.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="netlify"
+            >
+              hosted on Netlify
+            </a>{" "}
+            by V.Vasyutinskaya
+          </small>
         </footer>
       </div>
     </div>
