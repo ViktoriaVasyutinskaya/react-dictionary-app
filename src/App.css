@@ -1,19 +1,23 @@
 body {
   background: linear-gradient(
     to right,
-    rgb(98, 191, 205),
-    #8bac35,
-    #ca715f,
-    #b3559d
+    rgb(170, 211, 218),
+    #9fb36f,
+    #ce998e,
+    #b884ab
   );
   font-family: "Bebas Neue", cursive;
+  padding: 60px 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
 }
+
 a {
   color: forestgreen;
 }
 
 section {
-  background-color: rgb(218, 218, 224);
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 5px 6px 7px rgba(0, 0, 0, 0.3);
@@ -32,6 +36,7 @@ input {
   border-radius: 10px;
   font-style: italic;
   border: 1px solid grey;
+  opacity: 0.6;
 }
 .hint {
   font-size: small;
@@ -95,4 +100,8 @@ h2 {
   display: block;
   margin: 20px auto;
   border-radius: 10px;
+}
+.Photos img {
+  border-radius: 3px;
+  margin-bottom: 15px;
 }
